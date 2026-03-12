@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to bottom, #000000, #000000);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 250px;      /* largeur fixe */
+    height: auto; 
+    margin: 0 auto;   
+    text-align: center;
+    display: block;    
+}
+
