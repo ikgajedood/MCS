@@ -19,13 +19,14 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   margin: 20px 0;
-  color: #ff00f2;
-  border: 7px solid #ff00f2;
-  box-shadow: 2px 2px 20px rgb(255, 255, 255), 4px 4px 40px #ff00f2;
+  color: #ffffff;
+  border: 7px solid #ffffff;
   border-radius: 12px;
   padding: 12px 10px;
   display: inline-block;
   background-image: url("logo/logo presentation.png");
-    background-size: 130%;
+    background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
