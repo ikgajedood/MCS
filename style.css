@@ -5,10 +5,27 @@ body {
 }
 
 #logo {
-    width: 250px;      /* largeur fixe */
+    width: 250px;
     height: auto; 
     margin: 0 auto;   
     text-align: center;
     display: block;    
 }
 
+#boutonpage1
+{
+  width: 45vw;
+ height: 20vh;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ff00f2;
+  border: 7px solid #ff00f2;
+  box-shadow: 2px 2px 20px rgb(255, 255, 255), 4px 4px 40px #ff00f2;
+  border-radius: 12px;
+  padding: 12px 10px;
+  display: inline-block;
+  background-image: url("logo/logo presentation.png");
+    background-size: 130%;
+    background-position: center;
+}
