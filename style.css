@@ -5,7 +5,7 @@ body {
 }
 
 #logo {
-    width: 250px;
+    width: 70vw;
     height: auto; 
     margin: 0 auto;   
     text-align: center;
@@ -29,4 +29,24 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
+}
+
+#boutonpage2
+{
+  width: 45vw;
+ height: 20vh;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ffffff;
+  border: 7px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 10px;
+  display: inline-block;
+  background-image: url("logo/contact.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+  float: right;
 }
