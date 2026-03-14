@@ -1,0 +1,66 @@
+body  {
+    background-color: black;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+     text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(223, 223, 223, 0.6),
+    0 0 15px rgba(92, 92, 92, 0.973),
+    0 0 20px rgba(51, 51, 51, 0.2);
+    animation: neon 2s infinite;
+}
+
+#logo {
+    width: auto;
+    height: 20vh; 
+    margin: 0 auto;   
+    text-align: center;
+    display: block;    
+}
+
+#boutonpage
+{
+    width: 25vw;
+    height: 8vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("logo/Menu.png");
+    background-size: 18vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 2px solid #ffffff;
+    border-radius: 120px;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255), 4px 4px 10px #ffffff;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#raimstein
+{
+  width: 45vw;
+ height: 20vh;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ffffff;
+  border: 7px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 10px;
+  display: inline-block;
+  background-image: url("galerie/Snapchat-1891001193.jpg");
+    background-size: 45vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}

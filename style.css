@@ -8,8 +8,8 @@ body{
 }
 
 #logo {
-    width: 70vw;
-    height: auto; 
+    width: auto;
+    height: 25vh; 
     margin: 0 auto;   
     text-align: center;
     display: block;    
