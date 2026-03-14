@@ -1,6 +1,9 @@
-body {
-    background: linear-gradient(to bottom, #000000, #000000);
-    background-size: cover;
+body{
+    background-color: black;
+    background-image: url(logo/goldskull.png);
+    background-position: bottom center;
+    background-size: 70vw;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -25,7 +28,7 @@ body {
   padding: 12px 10px;
   display: inline-block;
   background-image: url("logo/logo presentation.png");
-    background-size: 100%;
+    background-size: 40vw;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -44,9 +47,48 @@ body {
   padding: 12px 10px;
   display: inline-block;
   background-image: url("logo/contact.png");
-    background-size: 80%;
+    background-size: 40vw;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
   float: right;
+}
+
+#boutonpage3
+{
+  width: 45vw;
+ height: 20vh;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-top: 0px;
+  color: #ffffff;
+  border: 7px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 10px;
+  display: block;
+  background-image: url("logo/galerieor.png");
+    background-size: 40vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+        animation: neon 3s infinite;
+  clear: both;
+}
+
+@keyframes neon {
+    0%, 100% {
+        box-shadow : 
+    0 0 10px rgba(255, 223, 0, 0.9),
+    0 0 20px rgba(255, 196, 0, 0.7),
+    0 0 30px rgba(255, 170, 0, 0.5),
+    0 0 40px rgba(255, 140, 0, 0.3);
+    }
+    50% {
+        box-shadow : 
+    0 0 20px rgba(255, 223, 0, 1),
+    0 0 30px rgba(255, 196, 0, 0.8),
+    0 0 40px rgba(255, 170, 0, 0.6),
+    0 0 50px rgba(255, 140, 0, 0.4);
+    }
 }
