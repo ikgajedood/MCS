@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    background-image: url(logo/goldskull.png);
+    background-image: url(logo/greenwallpaper.jpg);
     background-position: bottom center;
-    background-size: 70vw;
+    background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -67,8 +67,8 @@ body{
   border-radius: 12px;
   padding: 12px 10px;
   display: block;
-  background-image: url("logo/galerieor.png");
-    background-size: 40vw;
+  background-image: url("logo/galerievert.png");
+    background-size: 45vw;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -79,16 +79,16 @@ body{
 @keyframes neon {
     0%, 100% {
         box-shadow : 
-    0 0 10px rgba(255, 223, 0, 0.9),
-    0 0 20px rgba(255, 196, 0, 0.7),
-    0 0 30px rgba(255, 170, 0, 0.5),
-    0 0 40px rgba(255, 140, 0, 0.3);
+    0 0 10px rgba(0, 100, 0, 0.9),
+    0 0 20px rgba(0, 80, 0, 0.7),
+    0 0 30px rgba(0, 60, 0, 0.5),
+    0 0 40px rgba(0, 40, 0, 0.3);
     }
     50% {
         box-shadow : 
-    0 0 20px rgba(255, 223, 0, 1),
-    0 0 30px rgba(255, 196, 0, 0.8),
-    0 0 40px rgba(255, 170, 0, 0.6),
-    0 0 50px rgba(255, 140, 0, 0.4);
+    0 0 20px rgba(0, 120, 0, 1),
+    0 0 30px rgba(0, 100, 0, 0.8),
+    0 0 40px rgba(0, 80, 0, 0.6),
+    0 0 50px rgba(0, 60, 0, 0.4);
     }
 }
